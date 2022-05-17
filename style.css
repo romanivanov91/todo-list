@@ -1,0 +1,83 @@
+.inputpurpose {
+    box-sizing: border-box;
+    width: 100%;
+    background: goldenrod;
+    padding: 30px 50px;
+    margin: 0px;
+}
+.inputpurpose h2 {
+   text-align: center;
+   font-size: 30px;
+}
+.inputpurpose form {
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 50%;
+    height: 50px;
+}
+#purposetext {
+    box-sizing: border-box;
+    float: left;
+    height: 100%;
+    width:69%;
+    border-width: 0px;
+    border-radius: 10px 0 0 10px;
+    margin: 0px;
+    padding: 0px;
+}
+#purposetext:focus {
+    border-width: 3px;
+    border-color: red;
+}
+#purposeadd {
+    box-sizing: border-box;
+    float: left;
+    height: 100%;
+    width: 30%;
+    border-width: 0px;
+    border-radius: 0 10px 10px 0;
+    margin: 0px;
+    padding: 0px;
+}
+#purposeadd:hover {
+    background-color: gainsboro;
+}
+#purposeadd:active {
+    transform: scale(1.1);
+}
+.purposes {
+    width: 100%;
+    margin: 0px;
+}
+.purposes ul {
+    padding: 0px;
+    margin: 0px;
+}
+.purpose {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: greenyellow;
+    border: 2px solid red;
+    margin: 5px 0px;
+    font-size: large;
+    list-style-type:decimal;
+    list-style-position: inside;
+}
+.purposetext {
+    text-decoration: line-through;
+}
+.btnClose {
+    height: 50px;
+    width: 50px;
+    border: 1px solid wheat;
+}
+.purposedone {
+    background-color: red;
+}
+
+
+
+
